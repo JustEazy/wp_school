@@ -1,0 +1,26 @@
+.testimonials__content__reviews__title {
+    span {
+        color: $accent;
+    }
+    h3 {
+        font-weight: 700;
+        color: #2d2d2d;
+    }
+    p {
+        cursor: inherit;
+        color: #2d2d2d;
+        font-size: 30px;
+    }
+}
+.testimonial__content__reviews__slider__buttons {
+    margin-top: 150px;
+    .btn {
+        background-color: white;
+        border-radius: 50px;
+        width: 64px;
+        height: 64px;
+    }
+    .btn svg:hover {
+        fill: $accent;
+    }
+}

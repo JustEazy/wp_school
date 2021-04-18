@@ -1,0 +1,42 @@
+.header {
+    &__navbar {
+        &__brand {
+            font-size: 25px;
+            font-weight: 500;
+            vertical-align: bottom;
+            width: auto;
+        }
+        &__menu {
+            font-size: 16px;
+            font-weight: 400;
+            a {
+                margin-left: 40px;
+            }
+        }
+        &__auth {
+            font-size: 16px;
+            font-weight: 500;
+            &__button {
+                &_green_text-white {
+                    .btn {
+                        background-color: $accent;
+                        color: white;
+                        border-radius: 30px;
+                        width: 108px;
+                        height: 42px;
+                    }
+                }
+            }
+
+            width: auto;
+        }
+        a {
+            text-decoration: none;
+            color: $textcolor;
+        }
+    }
+}
+.active {
+    border-bottom: 1.5px solid #fb9b69;
+    transition-duration: 0.3s;
+}

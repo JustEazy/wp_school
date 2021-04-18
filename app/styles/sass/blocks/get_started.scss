@@ -1,0 +1,34 @@
+.get-started {
+    background-color: #ecf7f3;
+}
+.get-started__content__form__title {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 65px;
+        color: #2d2d2d;
+    }
+    span {
+        color: #ff8345;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25) initial;
+    }
+}
+.btn {
+    background-color: $accent;
+    color: white;
+    &__get-started {
+        border-radius: 30px;
+        text-align: center;
+        height: 40px;
+        width: auto;
+    }
+}
+.get-started__content__form__regular-user{
+    p{
+        span{
+            color: #ff8345;
+            cursor: pointer;
+        }
+    }
+}
