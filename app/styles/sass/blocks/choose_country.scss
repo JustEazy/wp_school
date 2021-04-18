@@ -1,17 +1,46 @@
-.choose-country__content__get-started{
-    span{
-        color: $accent;
+.choose-country__content__get-started {
+    span {
+        // color: $accent;
         cursor: pointer;
     }
-    div{
-        h3{
+    div {
+        h3 {
             font-weight: 700;
-            color: #2D2D2D;
+            color: #2d2d2d;
         }
-        .choose-country__content__get-started__subtitle{
-            cursor:inherit;
-            color: #2D2D2D;
+        .choose-country__content__get-started__subtitle {
+            cursor: inherit;
+            color: #2d2d2d;
             font-size: 30px;
+        }
+    }
+}
+.choose-country__content__table {
+    &__search {
+        button {
+            background-color: none;
+        }
+    }
+}
+.countries-table {
+    width: auto;
+    th {
+        font-weight: 500;
+        font-size: 15px;
+        padding: 14px 40px 14px 40px;
+        background: rgba(227, 237, 238, 0.56);
+        border-radius: 6px 0px 0px 6px;
+        text-align: left;
+        opacity: 70%;
+    }
+    td {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: left;
+        padding: 30px 40px 0 40px;
+
+        strong{
+            padding-left:5px;
         }
     }
 }
