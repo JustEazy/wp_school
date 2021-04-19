@@ -24,11 +24,36 @@
         width: auto;
     }
 }
-.get-started__content__form__regular-user{
-    p{
-        span{
+.get-started__content__form__regular-user {
+    p {
+        span {
             color: #ff8345;
             cursor: pointer;
+        }
+    }
+}
+.get-started__content__form__input {
+    form {
+        input {
+            border: none;
+            width: 600px;
+            height: 60px;
+            border-radius: 100px;
+            box-shadow: -20px 20px 40px rgba(122, 122, 122, 0.13);
+            text-align: center;
+        }
+        button {
+            background-color: transparent;
+            position: relative;
+            bottom: 57px;
+            left: 103%;
+            border: none;
+            border-radius: 50px;
+            height: 55px;
+            width: 55px;
+            background-image: url("../../images/dist/get_started/search-button.svg");
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
 }
