@@ -1,0 +1,60 @@
+.choose-country__content__get-started {
+    span {
+        color: $accent;
+    }
+}
+.card {
+    background-color: #fafafa;
+    border: none;
+    .card-header {
+        border: none;
+        background: none;
+        a {
+            span {
+                font-size: 20px;
+                font-weight: 500;
+                color: #2d2d2d;
+                margin-left: 10px;
+            }
+            button {
+                position: relative;
+                left: 75%;
+                background: none;
+            }
+        }
+        span {
+            font-size: 12px;
+            margin-left: 55px;
+        }
+    }
+}
+.verified-profile__content__profile__card__likes {
+    p {
+        color: #959595;
+        strong {
+            color: #444444;
+        }
+    }
+    a {
+        position: relative;
+        color: $secondarycolor;
+        left: 40%;
+    }
+}
+.verified-profile__content__profile__card__description {
+    text-align: justify;
+}
+.card-footer {
+    background: none;
+    border: none;
+}
+.btn-share {
+    border: none;
+    background: none;
+    color: #888888;
+    font-size: 15px;
+    img {
+        margin-right: 10px;
+        margin-bottom: 7px;
+    }
+}
